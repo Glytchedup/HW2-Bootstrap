@@ -1,0 +1,61 @@
+
+<style>
+/* https://css-tricks.com/all-about-floats/ */
+
+/* Body literally represents everything - Selector order not important  */
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Georgia, "Times New Roman", Times, serif; /* order to use fonts if available */
+  font-size: 18px;
+  line-height: 150%;
+  color: #333;  /* use COLOR PICKER website for specific color hashes */
+  background: #efeee7;
+}
+
+header {
+  background: #333;
+}
+
+h1 {
+  padding: 20px 0;
+  margin: 0;
+  margin-bottom: 20px;
+  font-size: 28px;
+  color: #eee;
+  text-align: center;
+  float: left;
+}
+
+h2 {
+  font-size: 24px;
+  float: left;
+}
+
+a {
+  color: #d21034;
+}
+
+.container {
+  width: 1024px;
+  margin: 0 auto;
+  float: right;
+}
+
+#main-bio {
+  width: 70%;
+  float: left;
+}
+
+#about-me {
+  width: 30%;
+  float: left;
+}
+
+#me {
+  width: 200px;
+  height: 200px;
+  margin-right: 20px;
+  float: right;
+}
+</style>
